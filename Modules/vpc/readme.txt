@@ -1,3 +1,7 @@
+How to call the module:
+module "VPC" {
+    source = "github.com/siddhardan/Terraform//Modules/vpc?ref=master"
+
 # Content for Variables
 
 variable "region" {}
@@ -19,6 +23,8 @@ variable "private_subnet_cidr" {}
 variable "igw_name" {}
 
 variable "NAT_name" {}
+
+}
 
 
 
